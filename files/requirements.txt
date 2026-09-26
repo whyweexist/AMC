@@ -1,0 +1,23 @@
+# Tested versions (Python 3.12). Licences: MIT / BSD-3 / Apache-2.0 / MPL-2.0+MIT (tqdm)
+pandas==3.0.2
+numpy==2.4.4
+scipy==1.17.1
+scikit-learn==1.8.0
+joblib==1.5.3
+lightgbm==4.7.0
+rapidfuzz==3.14.6
+sparse-dot-topn==1.2.0
+jellyfish==1.2.1
+tqdm==4.70.1
+pyarrow==25.0.1
+# notebook only
+ipywidgets>=8
+matplotlib>=3.8
+
+# Optional GPU extras (--use-dense / --use-cross-encoder). Models are MIT licensed:
+#   intfloat/multilingual-e5-small (dense view), microsoft/mdeberta-v3-base (cross-encoder)
+# torch>=2.1
+# transformers>=4.40
+# sentence-transformers>=2.7
+# faiss-cpu>=1.8
+# sentencepiece>=0.2
