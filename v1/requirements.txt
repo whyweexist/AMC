@@ -1,0 +1,17 @@
+# Core (tested): all MIT / BSD-3 licensed
+pandas>=2.2,<4
+numpy>=1.26,<3
+scipy>=1.11
+scikit-learn>=1.4
+lightgbm>=4.3          # MIT
+rapidfuzz>=3.6         # MIT
+sparse-dot-topn>=1.1   # MIT (exact sparse top-k cosine)
+pyarrow>=15            # Apache-2.0 (parquet dumps of scored pairs)
+
+# Optional GPU extras (--use-dense / --use-cross-encoder). Models used are MIT licensed:
+#   intfloat/multilingual-e5-small (dense view), microsoft/mdeberta-v3-base (cross-encoder)
+# torch>=2.1
+# transformers>=4.40
+# sentence-transformers>=2.7
+# faiss-cpu>=1.8        # or faiss-gpu
+# sentencepiece>=0.2    # needed by mdeberta tokenizer
